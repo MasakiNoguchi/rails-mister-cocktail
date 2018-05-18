@@ -1,0 +1,10 @@
+<div class="cocktail-show">
+  <h1 class ="new-cocktail-title">Create Your Cocktail</h1>
+  <p>What is the name of your drink?</p>
+  <div class="new-form">
+  <%= simple_form_for (@cocktail) do |f| %>
+    <%= f.input :name %>
+    <%= f.submit "Done!" %>
+  <% end %>
+  </div>
+</div>

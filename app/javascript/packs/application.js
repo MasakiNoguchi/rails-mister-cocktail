@@ -8,3 +8,9 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+import 'bootstrap';
+import '../components/slideshow';
+import { showSlides } from "../components/slideshow"
+
+showSlides();
